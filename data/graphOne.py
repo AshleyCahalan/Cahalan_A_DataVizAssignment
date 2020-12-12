@@ -8,6 +8,6 @@ y = np.array([653, 623, 456, 440, 433, 432, 360, 285, 277, 262,   ])
 
 plt.xlabel("Country")
 plt.ylabel("Number of Medals")
-plt.title("Number of Medals Won in the Winter Olympics")
-plt.bar(x, y, color = "#4CAF50")
+plt.title("Medals Won in the Winter Olympics")
+plt.bar(x, y, color="#4CAF50")
 plt.show()
