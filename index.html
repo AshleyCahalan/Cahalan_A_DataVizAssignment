@@ -1,92 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Canada at the Winter Olympics</title>
-	<!-- <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen"> -->
-	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+  <meta charset="UTF-8">
+  <title>Canada at the Olympic Winter Games</title>  
+  <link rel="stylesheet" href="css/main.css">  
 </head>
+  
+  <body>
+    
+    <!-- Container -->
+    <div class="container">
 
-<body>
-	
-	<h1 class="hidden">Canada at the Winter Olympics</h1>
-	
-	<!-- Container -->
-	<div id="container">
-		<!--
-		<header>
-			<nav>
-				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">CONTACT</a></li>
-				</ul>
-			</nav>
-		</header>
-		-->
+    <h1 class="hidden">Canada at the Olympic Winter Games</h1>
+    <header class="mainHeader">
+        <div class="logoHeader"></div>
+        <nav class="mainNav">
+          <h2 class="hidden">Main Navigation</h2>
+            <ul>
+               <li class="selected"><a href="#">HOME</a></li>
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="#">CONTACT</a></li>
+            </ul>
+      </nav>
+    </header>
 
-	<main role="main">
+    <section class="hero">
+      <h2>CANADA AT THE OLYMPIC WINTER GAMES</h2>
+      <h3>An Analysis of Why Canada is the BEST Team at the Olympics</h3>
+    </section>
 
-		<section class="hero">
-			<h2 class="hidden">Introduction</h2>
-			<h2>Canada at the Olympic Winter Games:<br> A Simple Analysis of Why Canada is the BEST Team at the Olympics</h2>
-		</section>
+    <main role="main">
 
-		<section class="outerText">
-			<p>Over the years, Canada has proven itself to be a very strong competitor in the Winter Olympic Games year after year. One may even say Canada is the best country at the Winter Olympics! As a Canadian myself, I may be a little biased, but when you take a look at the numbers you may find yourself agreeing with this opionion, if you don't already! To prove this opinion, we will take a look at various graphs depicting Olympic data. Please take note that the data used and analyzed below was the Olympic sports and medals data provided for 45 countries competing between 1924 and 2014 by the IOC Research and Reference Service and published by The Guardian's Datablog. Let's jump right in and take a look at some reasons why Team Canada is the BEST... </p>
-			<img src="images/hero_image_edit.jpg" alt="Canadian Olympic Athletes" height="600" width="980">
-			<span class="cap">AFP/GETTY IMAGES<br> "Team Canada at the opening ceremony of the Pyeongchang 2018 Winter Olympic Games."</span>
-		</section>
+      <section id="intro">
+          <h2 class="hidden">Page Introduction</h2>
+          <div class="mainDescLargeLeft"><img src="images/canadian_athletes.jpg" alt="Village" width="350" height="250"></div>
+          <div class="mainDescRight"><h2 class="subtitle">Why TEAM CANADA is the BEST</h2><p>Over the years, Canada has proven itself to be a very strong competitor in the Winter Olympic Games. One may even say Canada is the best country at the Winter Olympics! As a Canadian myself, I may be a little biased, but when you take a look at the numbers you may find yourself agreeing with this opionion, if you don't already! To prove this opinion, we will take a look at various graphs depicting Olympic data. Please take note that the data used and analyzed below was the Olympic sports and medals data provided for 45 countries competing between 1924 and 2014 by the IOC Research and Reference Service and published by The Guardian's Datablog. Let's jump right in and take a look at some reasons why Team Canada is the BEST...</p></div>
+      </section>
 
-		<section class="reason">
-			<h3 class="hidden">First Reason</h3>
-			<h3>#1. FIRST OF ALL, Canada Has A LOT of Medals</h3>
-			<p>Here we can look at the top 10 countries in the Winter Olympics, i.e. the countries with the highest medal counts between 1924 and 2014. According to the data, these countries include Austria (AUT), Canada (CAN), Finland (FIN), Germany (GER), Norway (NOR), Russia (RUS), Soviet Union (URS), Sweden (SWE), Switzerland (SUI) and United States of America (USA). Looking at the graph below, two countries take a significant lead in total medal count - the United States with 653 medals, and not far behind, Canada with 623 medals.</p>
-			<img src="images/graph_1.png" alt="Bar Graph" class="data_img">
-			<p>But let's break it down even further. This graph below shows the same 10 countries, but shows only the number of gold medals each country has won. So even though Canada may not have the MOST medals overall, they take the lead in medal value winning the most GOLD medals of any other country.</p>
-			<img src="images/graph_2.png" alt="Pie Graph" class="data_img">
-		</section>
+      <section class="contentAreaBig">
+            <h2 class="hidden">Reason 1</h2>
+            <h2 class="sectionTitle">#1. FIRST OF ALL, Canada Has A LOT of Medals</h2>
+            <p>Here we can look at the top 10 countries in the Winter Olympics, i.e. the countries with the highest medal counts between 1924 and 2014. According to the data, these countries include Austria (AUT), Canada (CAN), Finland (FIN), Germany (GER), Norway (NOR), Russia (RUS), Soviet Union (URS), Sweden (SWE), Switzerland (SUI) and United States of America (USA). Looking at Figure 1, two countries take a significant lead in total medal count - the United States with 653 medals, and not far behind, Canada with 623 medals.</p>
+            <p>But let's break it down even further. Figure 2 shows the same 10 countries, but shows only the number of gold medals each country has won. So even though Canada may not have the MOST medals overall, they take the lead in medal value winning the most GOLD medals of any other country.</p>
+            <p class="cap">Figure 1 (Left) and Figure 2 (Right).</p>
+            <img class="graphRight" src="images/graph_1.png" alt="Figure 1" width="400" height="300">
+            <img src="images/graph_2.png" alt="Figure 2" width="400" height="300">
+      </section>
 
-		<section class="reason">
-			<h3 class="hidden">Second Reason</h3>
-			<h3>#2. Canadian Athletes ROCK!</h3>
-			<p>Both men and women athletes play a significant part in adding to Canada's medal count. The graph below displays the medal counts and breakdown of medals won for both men and women Canadian athletes. We can see here that for BOTH men and women, more GOLD medals have been won than silver or bronze.</p>
-			<img src="images/graph_3.png" alt="Bar Graph" class="data_img">
-			<p>Zooming out on that point, we can compare Canadian male and female athletes to male and female athletes from other countries. The graph below shows the number of medals won based on gender for the top 10 countries we looked at earlier. A gender gap is still very evident in more countries. However, it's exciting to see that not only Canada's men are up near the top in number of medals won, but also Canada's WOMEN as one of the highest earners of winter Olympic medals.</p>
-			<img src="images/graph_4.png" alt="Scatter Plot" class="data_img">
-		</section>
+      <section class="contentAreaBig">
+            <h2 class="hidden">Reason 2</h2>
+            <h2 class="sectionTitle">#2. Canadian Athletes ROCK!</h2>
+            <p>Both men and women athletes play a significant part in adding to Canada's medal count. Figure 3 displays the medal counts and breakdown of medals won for both men and women Canadian athletes. We can see here that for BOTH men and women, more GOLD medals have been won than silver or bronze.</p>
+            <p>Considering that point, we can compare Canadian male and female athletes to male and female athletes from other countries. Figure 4 shows the number of medals won based on gender for the top 10 countries we looked at earlier. A gender gap is still very evident in more countries. However, it's exciting to see that not only Canada's men are up near the top in number of medals won, but also Canada's WOMEN as one of the highest earners of winter Olympic medals.</p>
+            <p class="cap">Figure 3 (Left) and Figure 4 (Right).</p>
+            <img class="graphRight" src="images/graph_3.png" alt="Figure 3" width="400" height="300">
+            <img id="graphLeft" src="images/graph_4.png" alt="Figure 4" width="400" height="300">
+      </section>
 
-		<section class="reason">
-			<h3 class="hidden">Third Reason</h3>
-			<h3>#3. Canada CRUSHES In These 2 Sports...</h3>
-			<p>Canada is an extremely strong team when it comes to hockey. The graph below shows all the countries that have won medals in hockey. We can see from this that it is CLEAR Canada takes the victory in Olympic hockey, with 376 medals - 221 of them being gold!</p>
-			<img src="images/graph_5.png" alt="Bar Graph" class="data_img">
-			<p>Another one of Canada's strong sports is skating. Below this graph lays out the medal count of the top 10 countries that have won the most medals in skating. As we can see in the graph below, the United States takes the most medals, but Canada hits a close second in the medals they have won for skating.</p>
-			<img src="images/graph_6.png" alt="Pie Graph" class="data_img">
-		</section>
+      <section class="contentAreaBig">
+            <h2 class="hidden">Reason 3</h2>
+            <h2 class="sectionTitle">#3. Canada CRUSHES In These 2 Sports...</h2>
+            <p>Canada is an extremely strong team when it comes to hockey. Figure 5 shows all the countries that have won medals in hockey. We can see from this that it is CLEAR Canada takes the victory in Olympic hockey, with 376 medals - 221 of them being gold!</p>
+            <p>Another one of Canada's strong sports is skating. Figure 6 lays out the medal count of the top 10 countries that have won the most medals in skating. As we can see in the graph, the United States takes the most medals, but Canada hits a close second in the medals they have won for skating.</p>
+            <p class="cap">Figure 5 (Left) and Figure 6 (Right).</p>
+            <img class="graphRight" src="images/graph_5.png" alt="Figure 5" width="400" height="300">
+            <img src="images/graph_6.png" alt="Figure 6" width="400" height="300">
+      </section>
 
-		<section class="reason">
-			<h3 class="hidden">Conclusion</h3>
-			<h3>Final Thoughts</h3>
-			<p class="outerText">Considering the points made above and the graphs we looked at, I think it's safe to say that Canada is undoutedly one of the strongest competitors in the games. And, in fact, yes, Canada is the BEST team at the Winter Olympics. Be sure to look out for Team Canada at the next Winter Olympics!</p>
-		</section>
+      <section class="contentAreaBig">
+            <h2 class="hidden">Final Thoughts</h2>
+            <h2 id="sectionTitleFinal">Final Thoughts</h2>
+            <p>Considering the points made above and the graphs we looked at, I think it's safe to say that Canada is undoutedly one of the strongest competitors in the games. And, in fact, yes, Canada is the BEST team at the Winter Olympics. Be sure to look out for Team Canada at the next Winter Olympics!</p>
+      </section>
 
-	</main>
+      <aside id="creds">
+      <p id="credsTitle">Photo Credits</p>
+      <p>Photo 1: THE CANADIAN PRESS/Jonathan Hayward</p>
+      <p>Photo 2: AFP/GETTY IMAGES</p>
+    </aside>
 
-	</div>
-	<!-- Container End -->
+    </main>
 
+    
 
-	<footer class="footer">
-		<h2 class="hidden">Main Footer</h2>
-		<p>Copyright &copy; 2020 Ashley Cahalan</p>
-	</footer>
+      
 
 
+    <footer class="mainFooter">
+      <div class="LogoNav">
+        <div class="logoFooter"></div>
+        <nav class="footerNav">
+          <h2 class="hidden">Footer navigation</h2>
+            <ul>
+              <li><a href="#" class="selected">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+      </div>  
 
-	<script src="js/main.js"></script>
+      <div class="socialMedia">
+        <h2 class="hidden">Social Media</h2>
+          <ul id="iconNav">
+            <li id="facebook"><a href="http://www.facebook.com"><img src="images/facebook.svg" alt="facebook"></a>
+            </li><li id="twitter"><a href="http://www.twitter.com"><img src="images/twitter.svg" alt="twitter"></a>
+            </li><li id="youtube"><a href="http://www.youtube.com"><img src="images/youtube.svg" alt="youtube"></a></li>
+        </ul>
+        <div id="copyRight"><p>&copy; 2020 Ashley Cahalan.</p></div>
+      </div> 
 
+
+      
+
+    </footer>
+
+  </div>
+  
 </body>
 
 </html>
